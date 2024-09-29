@@ -9,37 +9,37 @@ export const PROFESSORS: Professor[] = [
   {
     name: '강재우',
     url: 'https://dmis.korea.ac.kr',
-    profile: 'src/assets/prof/profKangJaeWoo.jpg',
+    profile: '/assets/prof/profKangJaeWoo.jpg',
     lab: 'DMIS'
   },
   {
     name: '김현우',
     url: 'http://mlv.korea.ac.kr/',
-    profile: 'src/assets/prof/profKimHyunWoo.jpg',
+    profile: '/assets/prof/profKimHyunWoo.jpg',
     lab: 'MLV'
   },
   {
     name: '김영근',
     url: 'https://casl.korea.ac.kr/',
-    profile: 'src/assets/prof/profKimYoungGeun.jpg',
+    profile: '/assets/prof/profKimYoungGeun.jpg',
     lab: 'CASL'
   },
   {
     name: '서홍석',
     url: 'https://miil.korea.ac.kr/',
-    profile: 'src/assets/prof/profSeoHongSeok.jpg',
+    profile: '/assets/prof/profSeoHongSeok.jpg',
     lab: 'MIIL'
   },
   {
     name: '임희석',
     url: 'https://blpkorea.cafe24.com/wp/',
-    profile: 'src/assets/prof/profLimHeeSeok.jpg',
+    profile: '/assets/prof/profLimHeeSeok.jpg',
     lab: 'NLP&AI'
   },
   {
     name: '윤수식',
     url: 'https://dais.korea.ac.kr/',
-    profile: 'src/assets/prof/profYoonSooSik.jpg',
+    profile: '/assets/prof/profYoonSooSik.jpg',
     lab: 'DAIS'
   }
 ]
@@ -75,7 +75,7 @@ export const INVITED_LECTURER: INVITED_LECTURER[] = [
       'LLM 기반 AI Safety 연구 및 LLM 모델 평가 방법 소개',
       'LLM 기반 Human-computer Interaction 연구 소개'
     ],
-    profile: 'src/assets/prof/yoon.png'
+    profile: '/assets/prof/yoon.png'
   },
   {
     name: '임우형',
@@ -98,7 +98,7 @@ export const INVITED_LECTURER: INVITED_LECTURER[] = [
       'AI가 기업현장에서 R&D와 생산공정 고도화에 활용되고 있는 사례 소개',
       'AI가 만들어가는 세상과 앞으로의 발전 방향 제시'
     ],
-    profile: 'src/assets/prof/lim.jpeg'
+    profile: '/assets/prof/lim.jpeg'
   },
   {
     name: '김지원',
@@ -115,7 +115,7 @@ export const INVITED_LECTURER: INVITED_LECTURER[] = [
       '기존 텔레콤 서비스와 초거대 언어 모델(LLM) 기술 및 이미지 생성 기술들의 융·복합 서비스 소개',
       'AI에서 AGI로! 인간을 넘어서는 인공지능 소개'
     ],
-    profile: 'src/assets/prof/kim.png'
+    profile: '/assets/prof/kim.png'
   },
   {
     name: '조지훈',
@@ -136,7 +136,7 @@ export const INVITED_LECTURER: INVITED_LECTURER[] = [
       'SBST (Search-based SW Testing) 분야 연구개발 소개',
       'PETs (Privacy-Enhancing Technologies) 및 협업프로젝트 (UN) 소개'
     ],
-    profile: 'src/assets/prof/master.png'
+    profile: '/assets/prof/master.png'
   },
   {
     name: '노병석',
@@ -156,7 +156,7 @@ export const INVITED_LECTURER: INVITED_LECTURER[] = [
       '대용량 데이터 기반 생성모델로의 패러다임 변화 소개',
       '카카오브레인에서 연구 중인 생성 모델 기술 소개'
     ],
-    profile: 'src/assets/prof/lo.png'
+    profile: '/assets/prof/lo.png'
   },
   {
     name: '하윤철',
@@ -172,7 +172,7 @@ export const INVITED_LECTURER: INVITED_LECTURER[] = [
       '국내/외 국방 인공지능 연구 개발 동향 및 사례',
       '무기 체계별 단계별 인공지능의 적용 및 발전 방향'
     ],
-    profile: 'src/assets/prof/kim_yoo.png'
+    profile: '/assets/prof/kim_yoo.png'
   },
   {
     name: '김유신',
@@ -189,6 +189,6 @@ export const INVITED_LECTURER: INVITED_LECTURER[] = [
       'AI 시대에서의 빅데이터 활용의 중요성과 DX 소개',
       '한화시스템 AI 기반 솔루션 및 AI/Data 플랫폼 소개'
     ],
-    profile: 'src/assets/prof/shin.png'
+    profile: '/assets/prof/shin.png'
   }
 ]

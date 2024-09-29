@@ -3,7 +3,6 @@ import Box from '@mui/material/Box'
 import Container from '@mui/material/Container'
 import Link from '@mui/material/Link'
 import Typography from '@mui/material/Typography'
-import ICTLogo from '../assets/images/ict_logo.png'
 
 export default function Footer() {
   return (
@@ -29,7 +28,7 @@ export default function Footer() {
       >
         <Grid container>
           <Grid item xs={12} sm={6}>
-            <img src={ICTLogo} alt="Mobile AI Systems" height={40} />
+            <img src={'/assets/images/ict_logo.png'} alt="Mobile AI Systems" height={40} />
           </Grid>
           <Grid
             item

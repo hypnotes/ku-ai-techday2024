@@ -1,9 +1,9 @@
+import BackgroundImage from '/assets/images/background.png'
 import Footer from '@components/Footer'
 import Leader from '@components/Homepage/Leader'
 import Title from '@components/Homepage/Title'
 import { Grid, styled } from '@mui/material'
 import Box from '@mui/material/Box'
-import BackgroundImage from '../assets/images/background.png'
 
 export default function HomePage() {
   return (
