@@ -79,9 +79,9 @@ const Leader = () => {
           </Box>
           <Box sx={{ display: 'flex', justifyContent: 'end' }}>
             <Link
-              to="/"
+              to="https://mpij.korea.ac.kr/"
+              target='_blank'
               style={{ textDecoration: 'none' }}
-              onClick={() => window.open('REGISTER_URL', '_blank')}
             >
               <LinkTypography>
                 <LinkIcon sx={{ width: 21, height: 21 }} />
