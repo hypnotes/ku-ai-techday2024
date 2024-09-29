@@ -15,11 +15,11 @@ const KakaoMap = () => {
   useEffect(() => {
     const container = document.getElementById('map')
     const options = {
-      center: new kakao.maps.LatLng(37.584948, 127.027816),
+      center: new kakao.maps.LatLng(37.584837, 127.025997),
       level: 3
     }
     const map = new kakao.maps.Map(container, options)
-    const markerPosition = new kakao.maps.LatLng(37.5846168, 127.0253533)
+    const markerPosition = new kakao.maps.LatLng(37.584837, 127.025997)
 
     const marker = new kakao.maps.Marker({
       position: markerPosition

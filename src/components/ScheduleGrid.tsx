@@ -66,17 +66,17 @@ const ScheduleGrid = () => {
                     >
                       {item.presenter}
                     </Typography>
-                    {item.affiliation &&
-                      item.affiliation !== '고려대 컴퓨터학과' && (
-                        <Typography
-                          variant="caption"
-                          fontWeight={500}
-                          color={palette.secondary.main}
-                          ml={1}
-                        >
-                          {item.affiliation}
-                        </Typography>
-                      )}
+                    {item.affiliation && (
+                      // item.affiliation !== '고려대 컴퓨터학과' &&
+                      <Typography
+                        variant="caption"
+                        fontWeight={500}
+                        color={palette.secondary.main}
+                        ml={1}
+                      >
+                        {item.affiliation}
+                      </Typography>
+                    )}
                   </Box>
                 )}
               </Grid>
@@ -111,18 +111,18 @@ const ScheduleGrid = () => {
                 <Grid item xs={3} display={'flex'} alignItems={'baseline'}>
                   <ContentTypographyLight>
                     {item.presenter}
-                    {item.affiliation &&
-                      item.affiliation !== '고려대 컴퓨터학과' && (
-                        <Typography
-                          variant="caption"
-                          fontWeight={600}
-                          color={palette.secondary.main}
-                          ml={1}
-                        >
-                          • {item.affiliation}
-                        </Typography>
-                        // <Chip label={item.affiliation} variant="outlined" color={'secondary'} size="small" />
-                      )}
+                    {item.affiliation && (
+                      // item.affiliation !== '고려대 컴퓨터학과'&&
+                      <Typography
+                        variant="caption"
+                        fontWeight={600}
+                        color={palette.secondary.main}
+                        ml={1}
+                      >
+                        • {item.affiliation}
+                      </Typography>
+                      // <Chip label={item.affiliation} variant="outlined" color={'secondary'} size="small" />
+                    )}
                   </ContentTypographyLight>
                 </Grid>
               )}

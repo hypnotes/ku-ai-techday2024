@@ -1,7 +1,5 @@
 import { Navigate, type RouteObject } from 'react-router'
-import ApplyPage from '@pages/ApplyPage'
 import HomePage from '@pages/HomePage'
-import KeynotePage from '@pages/KeynotePage'
 import LocationPage from '@pages/LocationPage'
 import OrganizerPage from '@pages/OrganizerPage'
 import Page404 from '@pages/Page404'
@@ -15,10 +13,6 @@ const routes: RouteObject[] = [
   {
     path: 'organizer',
     element: <OrganizerPage />
-  },
-  {
-    path: 'apply',
-    element: <ApplyPage />
   },
   {
     path: 'location',

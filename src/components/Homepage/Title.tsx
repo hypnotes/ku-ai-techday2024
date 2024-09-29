@@ -1,12 +1,10 @@
 import { Link } from 'react-router-dom'
 import { LinkTypography } from '@components/LinkBox'
+import { REGISTER_URL } from '@/data/register'
 import CalendarTodayIcon from '@mui/icons-material/CalendarToday'
 import LinkIcon from '@mui/icons-material/Link'
 import LocationOnIcon from '@mui/icons-material/LocationOn'
 import { Box, Grid, Typography, useMediaQuery, useTheme } from '@mui/material'
-
-const REGISTER_URL =
-  'https://docs.google.com/forms/d/e/1FAIpQLSdag1YBvFK1OUlXSwLjC5CnF_8zLV-QcHaPChbst2XZomBDgA/viewform'
 
 const Title = () => {
   const theme = useTheme()
@@ -45,7 +43,7 @@ const Title = () => {
           2024 AI TECH DAY
         </Typography>
       </Box>
-      <Box mt={2}>
+      <Box mx={2}>
         <Grid>
           <Link to={'/program'} style={{ textDecoration: 'none' }}>
             <LinkTypography>
@@ -56,7 +54,7 @@ const Title = () => {
                 fontWeight={'regular'}
                 color="inherit"
               >
-                2024.10.18(금) 10:00 ~ 18:20
+                2024.10.18(금) 10:00 ~ 18:00
               </Typography>
             </LinkTypography>
           </Link>
@@ -107,7 +105,7 @@ const Title = () => {
           </Box>
         </Grid>
       </Box>
-      <Box mt={6} color={theme.palette.grey[300]}>
+      <Box mt={6} mb={2} color={theme.palette.grey[300]}>
         <Box sx={{ display: 'flex', flexDirection: 'column' }}>
           <Typography variant="subtitle1" fontWeight="bold">
             연구 교류 및 성과 공유
@@ -128,17 +126,17 @@ const Title = () => {
             초청강연
           </Typography>
           <Typography variant="caption">
-            네이버, LG, SKT, 삼성SDS, 한화시스템, 카카오브레인
+            루닛, NCSOFT, LG AI 연구원, KT, 퓨리오사 AI, 업스테이지
           </Typography>
         </Box>
-        <Box mt={2}>
+        {/* <Box mt={2}>
           <Typography variant="subtitle1" fontWeight="bold">
             Recruiting 참여 기업
           </Typography>
           <Typography variant="caption" mt={1}>
             Samsung Research, 삼성전기, 한화시스템, FuriosaAI 등
           </Typography>
-        </Box>
+        </Box> */}
       </Box>
     </Grid>
   )

@@ -2,6 +2,7 @@ import * as React from 'react'
 import { useNavigate } from 'react-router-dom'
 import Sitemark from '@components/SitemarkIcon'
 import ToggleColorMode from '@components/ToggleColorMode'
+import { REGISTER_URL } from '@/data/register'
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded'
 import MenuIcon from '@mui/icons-material/Menu'
 import { PaletteMode, styled } from '@mui/material'
@@ -56,9 +57,17 @@ export default function AppAppBar({ mode, toggleColorMode }: AppAppBarProps) {
 
   const navigate = useNavigate()
 
-  const clickFromDrawer = (path: string) => {
+  const clickFromDrawer = (link: { title: string; path: string }) => {
     toggleDrawer(false)()
-    navigate(path)
+    onClickNavBar(link)
+  }
+
+  const onClickNavBar = (link: { title: string; path: string }) => {
+    if (link.path === 'apply') {
+      window.open(REGISTER_URL, '_blank')
+      return
+    }
+    navigate(link.path)
   }
 
   return (
@@ -87,7 +96,7 @@ export default function AppAppBar({ mode, toggleColorMode }: AppAppBarProps) {
               variant="text"
               color="info"
               size="small"
-              onClick={() => navigate(link.path)}
+              onClick={() => onClickNavBar(link)}
               key={link.title + link.path}
             >
               {link.title}
@@ -119,10 +128,7 @@ export default function AppAppBar({ mode, toggleColorMode }: AppAppBarProps) {
               </DrawerDrawerBox>
               <Divider sx={{ my: 1 }} />
               {appNavLinks.map((link) => (
-                <MenuItem
-                  onClick={() => clickFromDrawer(link.path)}
-                  key={link.path}
-                >
+                <MenuItem onClick={() => clickFromDrawer(link)} key={link.path}>
                   {link.title}
                 </MenuItem>
               ))}

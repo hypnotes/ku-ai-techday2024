@@ -39,7 +39,7 @@ export const PROFESSORS: Professor[] = [
   {
     name: '윤수식',
     url: 'https://dais.korea.ac.kr/',
-    profile: '/assets/prof/profYoonSooSik.jpg',
+    profile: '/assets/prof/profYoonSooSik.png',
     lab: 'DAIS'
   }
 ]

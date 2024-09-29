@@ -98,7 +98,7 @@ const scheduleData = [
   },
   {
     time: '14:30 - 15:00',
-    program: '지능을 만드는 과정의 조망 : LLM Lifecycle',
+    program: '지능을 만드는 과정의 조망: LLM Lifecycle',
     presenter: '윤경아 AI Tech 랩장',
     affiliation: 'KT',
     chair: '',
@@ -108,7 +108,7 @@ const scheduleData = [
     time: '15:00 - 15:20',
     program: '한국어 특화 LLM: 구름 (KULLM)',
     presenter: '임희석 교수',
-    affiliation: '',
+    affiliation: '고려대 컴퓨터학과',
     chair: '',
     location: ''
   },
@@ -133,7 +133,7 @@ const scheduleData = [
     time: '16:30 - 16:50',
     program: 'Enabling Resource-Efficient Deep Learning: Toward On-Device AI',
     presenter: '김영근 교수',
-    affiliation: '',
+    affiliation: '고려대 컴퓨터학과',
     chair: '',
     location: ''
   },
@@ -158,7 +158,7 @@ const scheduleData = [
     time: '17:30 - 17:50',
     program: 'Learning from Evolving Unstructured Data with Foundation Models',
     presenter: '윤수식 교수',
-    affiliation: '',
+    affiliation: '고려대 컴퓨터학과',
     chair: '',
     location: ''
   },
@@ -167,7 +167,7 @@ const scheduleData = [
     program:
       '시상 및 폐회사 (포스터/데모, 명품인재x업스테이지 LLM Innovators Challenge)',
     presenter: '한정현 사업단장',
-    affiliation: '',
+    affiliation: '고려대 컴퓨터학과',
     chair: '',
     location: ''
   }

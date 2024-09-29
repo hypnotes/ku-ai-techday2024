@@ -7,7 +7,7 @@ import { Box, Button, Divider, Grid, Typography, useTheme } from '@mui/material'
 const LOCATION = '서울 성북구 고려대로22길 6-7'
 const SPECIFIC_LOCATION = '고려대학교 하나스퀘어 (지하1층)'
 const MAP_ROUTE_URL =
-  'https://map.kakao.com/link/from/%EC%95%88%EC%95%94%EC%97%AD%206%ED%98%B8%EC%84%A0,%2037.5863,%20127.0293/to/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90%ED%95%98%EB%82%98%EC%8A%A4%ED%80%98%EC%96%B4,37.5846168,%20127.0253533'
+  'https://map.kakao.com/?map_type=TYPE_MAP&target=car&rt=,,505738,1134818&rt1=&rt2=%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90%20%ED%95%98%EB%82%98%EC%8A%A4%ED%80%98%EC%96%B4&rtIds=,17564816'
 
 const LocationPage = () => {
   const theme = useTheme()
