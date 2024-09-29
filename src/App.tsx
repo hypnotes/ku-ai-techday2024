@@ -1,8 +1,9 @@
 import { SnackbarProvider } from 'notistack'
 import { ThemeProvider } from '@emotion/react'
-import { useEffect, useState } from 'react'
+import { Analytics } from '@vercel/analytics/react'
+import { useState } from 'react'
 import { QueryClient, QueryClientProvider } from 'react-query'
-import { useParams, useRoutes } from 'react-router-dom'
+import { useRoutes } from 'react-router-dom'
 import AppAppBar from '@components/AppAppBar'
 import { CheckCircle, Error, Warning } from '@mui/icons-material'
 import { CssBaseline, PaletteMode } from '@mui/material'
@@ -41,6 +42,7 @@ function App() {
           <AppAppBar mode={mode} toggleColorMode={toggleColorMode} />
           {content}
         </SnackbarProvider>
+        <Analytics />
       </ThemeProvider>
     </QueryClientProvider>
   )
