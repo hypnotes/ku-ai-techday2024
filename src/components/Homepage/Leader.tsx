@@ -19,7 +19,7 @@ const Leader = () => {
         flexDirection: 'column',
         justifyContent: 'flex-end',
         alignItems: 'flex-end',
-        padding: theme.spacing(8)
+        padding: matches ? 3 : 5
       }}
     >
       <Grid

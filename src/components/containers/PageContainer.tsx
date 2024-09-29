@@ -1,6 +1,6 @@
 import { Box, useMediaQuery, useTheme } from '@mui/material'
 
-const PageContainer = ({ children }: { children: JSX.Element }) => {
+const PageContainer = ({ children }: { children: JSX.Element[] }) => {
   const theme = useTheme()
   const matches = useMediaQuery(theme.breakpoints.up('md'))
 

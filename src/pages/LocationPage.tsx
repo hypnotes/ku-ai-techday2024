@@ -1,3 +1,4 @@
+import Footer from '@components/Footer'
 import PageContainer from '@components/containers/PageContainer'
 import KakaoMap from '@components/location/KakaoMap'
 import LinkIcon from '@mui/icons-material/Link'
@@ -133,13 +134,15 @@ const LocationPage = () => {
             sx={{
               display: 'flex',
               justifyContent: 'center',
-              alignItems: 'center'
+              alignItems: 'center',
+              marginBottom: theme.spacing(5)
             }}
           >
             <img src="src/assets/images/blueprint.png" width="50%" />
           </Box>
         </Grid>
       </Grid>
+      <Footer />
     </PageContainer>
   )
 }

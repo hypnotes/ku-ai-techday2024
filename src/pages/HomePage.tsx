@@ -1,17 +1,25 @@
 import Footer from '@components/Footer'
 import Leader from '@components/Homepage/Leader'
 import Title from '@components/Homepage/Title'
-import { Grid, styled } from '@mui/material'
+import { Grid, styled, useMediaQuery } from '@mui/material'
 import Box from '@mui/material/Box'
 import BackgroundImage from '/assets/images/background.png'
 
 export default function HomePage() {
+  const matches = useMediaQuery('(min-width:600px)')
   return (
     <PageContainer>
-      <Grid container width={'100vw'}>
+      <Grid
+        container
+        width={'100vw'}
+        height={matches ? '85vh' : '100%'}
+        justifyContent={'center'}
+        alignItems={'center'}
+      >
         <Title />
         <Leader />
       </Grid>
+      <Box sx={{ flexGrow: 1 }} />
       <Footer />
     </PageContainer>
   )

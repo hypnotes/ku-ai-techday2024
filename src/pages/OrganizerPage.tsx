@@ -1,3 +1,4 @@
+import Footer from '@components/Footer'
 import PageContainer from '@components/containers/PageContainer'
 import ProfessorContainer from '@components/professors/Professor'
 import LectureContainer from '@components/professors/lectures'
@@ -103,6 +104,8 @@ const OrganizerPage = () => {
           <LectureContainer lecturer={lecturer} key={index} />
         ))} */}
       </Grid>
+      <Box sx={{ height: 100 }} />
+      <Footer />
     </PageContainer>
   )
 }

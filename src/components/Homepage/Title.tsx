@@ -15,14 +15,14 @@ const Title = () => {
       sm={12}
       md={6}
       lg={6}
-      p={theme.spacing(8)}
-      justifyContent={'space-between'}
+      p={matches ? 3 : 5}
       sx={{
         width: '100%',
         height: '100%',
         display: 'flex',
         flexDirection: 'column'
       }}
+      justifyContent={matches ? 'center' : 'flex-end'}
     >
       <Box
         sx={{
@@ -30,7 +30,8 @@ const Title = () => {
           display: 'flex',
           flexDirection: 'column'
         }}
-        mt={10}
+        my={10}
+        mt={matches ? 20 : 10}
       >
         <Typography color={'whitesmoke'} variant={matches ? 'subtitle2' : 'h5'}>
           고려대학교 ICT명품인재양성사업단&nbsp;
@@ -40,10 +41,10 @@ const Title = () => {
           variant={'h2'}
           sx={{ fontWeight: 900, marginBottom: theme.spacing(2) }}
         >
-          2024 AI TECH DAY
+          2024 {matches && <br />}AI TECH DAY
         </Typography>
       </Box>
-      <Box mx={2}>
+      <Box mx={matches ? 0.5 : 1}>
         <Grid>
           <Link to={'/program'} style={{ textDecoration: 'none' }}>
             <LinkTypography>
