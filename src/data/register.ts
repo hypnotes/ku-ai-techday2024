@@ -1,2 +1,2 @@
 export const REGISTER_URL =
-  'https://docs.google.com/forms/d/e/1FAIpQLSdag1YBvFK1OUlXSwLjC5CnF_8zLV-QcHaPChbst2XZomBDgA/viewform'
+  'https://docs.google.com/forms/d/e/1FAIpQLScbFzzuX35RdFHXaDk-J4fhE54l0KQH2uWUpdXE0qhFq2NTCg/viewform?vc=0&c=0&w=1&flr=0'
