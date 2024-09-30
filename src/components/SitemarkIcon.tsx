@@ -7,7 +7,7 @@ export default function SitemarkIcon({ isRevert }: { isRevert: boolean }) {
       component="span"
       sx={{ color: 'primary.main', fontWeight: 'bold' }}
     >
-      KU AI Tech Day
+      AI Tech Day 2024
     </Typography>
   )
 }

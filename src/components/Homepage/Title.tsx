@@ -34,14 +34,14 @@ const Title = () => {
         mt={matches ? 20 : 10}
       >
         <Typography color={'whitesmoke'} variant={matches ? 'subtitle2' : 'h5'}>
-          고려대학교 ICT명품인재양성사업단&nbsp;
+          고려대학교 ICT명품인재양성사업단/초지능연구센터&nbsp;
         </Typography>
         <Typography
           color={'white'}
           variant={'h2'}
           sx={{ fontWeight: 900, marginBottom: theme.spacing(2) }}
         >
-          2024 {matches && <br />}AI TECH DAY
+          AI TECH DAY{matches && <br />} 2024
         </Typography>
       </Box>
       <Box mx={matches ? 0.5 : 1}>

@@ -19,12 +19,6 @@ export const PROFESSORS: Professor[] = [
     lab: 'MLV'
   },
   {
-    name: '김영근',
-    url: 'https://casl.korea.ac.kr/',
-    profile: '/assets/prof/profKimYoungGeun.jpg',
-    lab: 'CASL'
-  },
-  {
     name: '서홍석',
     url: 'https://miil.korea.ac.kr/',
     profile: '/assets/prof/profSeoHongSeok.jpg',
@@ -35,6 +29,12 @@ export const PROFESSORS: Professor[] = [
     url: 'https://blpkorea.cafe24.com/wp/',
     profile: '/assets/prof/profLimHeeSeok.jpg',
     lab: 'NLP&AI'
+  },
+  {
+    name: '김영근',
+    url: 'https://casl.korea.ac.kr/',
+    profile: '/assets/prof/profKimYoungGeun.jpg',
+    lab: 'CASL'
   },
   {
     name: '윤수식',
