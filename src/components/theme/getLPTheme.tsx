@@ -166,7 +166,8 @@ const getDesignTokens = (mode: PaletteMode) => ({
     }
   },
   typography: {
-    fontFamily: ['"Inter", "sans-serif"'].join(','),
+    fontFamily:
+      '"Pretendard", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji"',
     h1: {
       fontSize: 60,
       fontWeight: 600,
