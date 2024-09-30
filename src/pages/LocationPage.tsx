@@ -138,7 +138,8 @@ const LocationPage = () => {
               marginBottom: theme.spacing(5)
             }}
           >
-            <img src="src/assets/images/blueprint.png" width="50%" />
+            <Typography>TO BE ANNOUNCED 🎉</Typography>
+            {/* <img src="src/assets/images/blueprint.png" width="50%" /> */}
           </Box>
         </Grid>
       </Grid>
