@@ -99,10 +99,9 @@ const OrganizerPage = () => {
             />
           )}
         </Box>
-        <Typography>TO BE ANNOUNCED 🎉</Typography>
-        {/* {INVITED_LECTURER.map((lecturer, index) => (
+        {INVITED_LECTURER.map((lecturer, index) => (
           <LectureContainer lecturer={lecturer} key={index} />
-        ))} */}
+        ))}
       </Grid>
       <Box sx={{ height: 100 }} />
       <Footer />

@@ -56,139 +56,109 @@ export type INVITED_LECTURER = {
 }
 export const INVITED_LECTURER: INVITED_LECTURER[] = [
   {
-    name: '윤상두',
-    position: '소장',
-    company: '네이버 클라우드',
-    education: [
-      '서울대학교 전기컴퓨터공학부 박사 (2017)',
-      '서울대학교 전기컴퓨터공학부 석사 (2013)',
-      '서울대학교 전기컴퓨터공학부 학사 (2010)'
-    ],
-    career: [
-      '2023 - 현재 네이버 AI Lab Research Director',
-      '2022 - 현재 서울대학교 AI연구원 겸임 교수',
-      '2018 - 2022 네이버 AI Lab Research Scientist'
-    ],
-    lectureTitle: 'AI Research in the Era of Large Language Models (LLMs)',
-    lectureContent: [
-      'Large-scale AI 관련 네이버 AI의 최신 연구 소개',
-      'LLM 기반 AI Safety 연구 및 LLM 모델 평가 방법 소개',
-      'LLM 기반 Human-computer Interaction 연구 소개'
-    ],
-    profile: '/assets/prof/yoon.png'
-  },
-  {
-    name: '임우형',
-    position: '상무',
-    company: 'LG AI Research',
-    education: [
-      '서울대학교 전기정보공학부 박사 (2007)',
-      '서울대학교 전기정보공학부 석사 (2002)',
-      '서울대학교 전기정보공학부 학사 (2000)'
-    ],
-    career: [
-      '2020 - 현재 LG AI연구원 상무 (Applied AI Research 그룹장)',
-      '2021 - 현재 AI미래포럼 공동의장',
-      '2019 - 2020 LG 사이언스파크 연구위원 (Data Intelligence Lab장)',
-      '2013 - 2019 SKT 매니저 (AI 기술 Unit)',
-      '2007 - 2013 삼성전자 책임연구원 (무선사업부 Voice Service 개발그룹)'
-    ],
-    lectureTitle: 'AI를 통해 만들어가는 더 나은 세상',
-    lectureContent: [
-      'AI가 기업현장에서 R&D와 생산공정 고도화에 활용되고 있는 사례 소개',
-      'AI가 만들어가는 세상과 앞으로의 발전 방향 제시'
-    ],
-    profile: '/assets/prof/lim.jpeg'
-  },
-  {
-    name: '김지원',
-    position: '부사장',
-    company: 'SKT',
-    education: ['MIT EECS 석사 (2007)', 'MIT EECS 학사 (2007)'],
-    career: [
-      '2016 - 현재 SKT 부사장 (에이닷 Tech 대화 담당)',
-      '2020 대통령 직속 국가과학기술자문회의 자문위원',
-      '2007 - 2016 삼성전자 종합기술원 전문연구원'
-    ],
-    lectureTitle: 'SKT A.X LLM',
-    lectureContent: [
-      '기존 텔레콤 서비스와 초거대 언어 모델(LLM) 기술 및 이미지 생성 기술들의 융·복합 서비스 소개',
-      'AI에서 AGI로! 인간을 넘어서는 인공지능 소개'
-    ],
-    profile: '/assets/prof/kim.png'
-  },
-  {
-    name: '조지훈',
-    position: '마스터',
-    company: '삼성 SDS',
-    education: [
-      'Royal Holloway, University of London 정보보안 박사',
-      'University of Waterloo 암호학 석사'
-    ],
-    career: [
-      '2013 - 현재 삼성SDS 마스터 (보안연구팀)',
-      '2009 - 2013 LG전자 선임연구원'
-    ],
-    lectureTitle: 'AI & Security in Samsung SDS',
-    lectureContent: [
-      'SDS 연구소에서 수행하고 있는 AI, Security 분야 연구 분야 및 성과 소개',
-      'Post Quantum Crypto 원천기술, 전환기술 및 협업프로젝트 (미국 NIST NCCoE) 소개',
-      'SBST (Search-based SW Testing) 분야 연구개발 소개',
-      'PETs (Privacy-Enhancing Technologies) 및 협업프로젝트 (UN) 소개'
-    ],
-    profile: '/assets/prof/master.png'
-  },
-  {
-    name: '노병석',
+    name: '김태수',
     position: '리더',
-    company: '카카오브레인',
+    company: '루닛',
     education: [
-      '고려대학교 컴퓨터학과 석사 (2007)',
-      '고려대학교 컴퓨터학과 학사 (2005)'
+      'Johns Hopkins University, Computer Science 박사, advisor: Dr. Gregory Hager, Dr. Alan Yuille',
+      'Johns Hopkins University, Computer Science 석사',
+      'Johns Hopkins University, Computer Science 학사'
     ],
-    career: [
-      '2020 - 현재 카카오브레인 팀 리더 (AI-CAD)',
-      '2015 - 2020 Intel Korea 이사',
-      '2007 - 2015 한국전자통신연구원 (ETRI) 연구원'
-    ],
-    lectureTitle: 'A New Era of Generative AI',
+    career: ['루닛 의 Cancer Screening AI Department 모델팀 팀장'],
+    lectureTitle: 'Foundation Model 이란',
     lectureContent: [
-      '대용량 데이터 기반 생성모델로의 패러다임 변화 소개',
-      '카카오브레인에서 연구 중인 생성 모델 기술 소개'
+      '루닛의 Foundation Model 과 의료 AI',
+      '루닛의 Foundation Model 관련 연구 결과'
     ],
-    profile: '/assets/prof/lo.png'
+    profile: '/assets/prof/kimtaesu.png'
   },
   {
-    name: '하윤철',
-    position: '상무',
-    company: '한화시스템',
-    education: ['서울대학교 산업공학과 석사 (1997)'],
+    name: '김민재',
+    position: 'AI Tech 센터장',
+    company: 'NCSOFT',
+    education: [
+      '2015 고려대학교 전자전기공학과 박사',
+      '2017 고려대학교 전기전자전파공학부 학사'
+    ],
     career: [
-      '2022 - 현재 한화시스템 기반기술연구소장',
-      '2015 - 2022 한화시스템 팀장 (해양연구소 SW팀)'
+      '2024 - 현재  NCSOFT AI Tech 센터장',
+      '2022 - 2024 NCSOFT AI 센터 Vision AI Lab 실장',
+      '2017 - 2022 NCSOFT AI 센터 Vision AI Lab 팀장',
+      '2015 - 2017 LG전자 CTO 자동차부품기술연구소 선임연구원'
     ],
-    lectureTitle: '국방 인공지능 동향과 사례',
+    lectureTitle: '게임 산업에서의 Vision AI 기술 활용 사례',
     lectureContent: [
-      '국내/외 국방 인공지능 연구 개발 동향 및 사례',
-      '무기 체계별 단계별 인공지능의 적용 및 발전 방향'
+      '1. Generative AI 기술 발전이 불러온 창작의 패러다임 변화',
+      '2. NC에서의 Vision AI 기술 활용 분야 소개'
     ],
-    profile: '/assets/prof/kim_yoo.png'
+    profile: '/assets/prof/kimminjae.png'
   },
   {
-    name: '김유신',
-    position: '상무',
-    company: '한화시스템',
-    education: ['서울대학교 산업공학과 석사 (1997)'],
+    name: '이순영',
+    position: '멀티모달랩장',
+    company: 'LG AI 연구원',
+    education: [
+      '2012 서울대학교 전기정보공학부 박사',
+      '2007 서울대학교 전기정보공학부 석사',
+      '2004 서울대학교 전기정보공학부 학사'
+    ],
     career: [
-      '2022 - 현재 한화시스템 상무 (Data eXcellence 담당)',
-      '2020 - 2022 한화시스템 상무 (미래혁신센터)',
-      '2007 - 2020 SKT 부장 (AI 센터)'
+      '2012 ~ 2016 삼성전자 무선사업부: 삼성 인터넷 브라우저 Rendering 엔진 개발, VR 브라우저 개발',
+      '2016 ~ 2017 삼성전자 차세대사업팀: 위성 영상 분석, Urban Scene understanding',
+      '2017 ~ 2020 삼성전자 네트워크사업부: 최적 기지국 위치 선정 알고리즘 연구, OpenRAN 개발',
+      '2021 ~ 현재 LG AI 연구원 멀티모달랩: 생성형 AI, 메디컬 AI '
     ],
-    lectureTitle: 'AI & Data in Hanwha Systems',
+    lectureTitle: '전문가를 위한 AI: EXAONE 멀티모달',
     lectureContent: [
-      'AI 시대에서의 빅데이터 활용의 중요성과 DX 소개',
-      '한화시스템 AI 기반 솔루션 및 AI/Data 플랫폼 소개'
+      '연구원의 비전/멀티모달  연구 분야 개요',
+      'EXAONE 멀티모달 모델의 현업 적용 사례 소개'
     ],
-    profile: '/assets/prof/shin.png'
+    profile: '/assets/prof/leesunyoung.jpg'
+  },
+  {
+    name: '윤경아',
+    position: 'AI Tech 랩장',
+    company: 'KT',
+    education: ['2001 ~ 2010 전산학과 석/박사, KAIST'],
+    career: [
+      '2023 ~ 현재 AI Tech Lab장, KT',
+      '2021 ~ 2023 Cloud 개발실장, 현대카드',
+      '2010 ~ 2020 AI센터 리더, SKT'
+    ],
+    lectureTitle: '지능을 만드는 과정의 조망: LLM Lifecycle',
+    lectureContent: [
+      'LLM은 어떻게 만들어 지는가?',
+      'LLM은 어떻게 평가되는가?',
+      'LLM은 어떻게 운영되고 개선되는가?'
+    ],
+    profile: '/assets/prof/yoonkyeonga.jpg'
+  },
+  {
+    name: '김한준',
+    position: 'CTO',
+    company: '퓨리오사AI',
+    education: ['2005 KAIST 전산학과 학사', '2015 KAIST 전산학과 박사'],
+    career: [
+      '2014 ~ 2017 삼성전자 메모리 사업부 메모리솔루션랩',
+      '2017 ~ 현재 FuriosaAI CTO'
+    ],
+    lectureTitle:
+      'Powering the Inference Age: Introducing RNGD for Scalable and Sustainable AI',
+    lectureContent: [
+      '지속가능한 AI 시대를 위한 고성능 저전력 AI Chip의 필요성',
+      ' AI Chip 아키텍쳐의 핵심 요소와 Tensor Contraction Architecture 소개'
+    ],
+    profile: '/assets/prof/kimhanjun.png'
+  },
+  {
+    name: '이활석',
+    position: 'CTO',
+    company: '업스테이지',
+    education: ['to be announced..'],
+    career: ['to be announced..'],
+    lectureTitle:
+      'B2B Innovation: Harnessing Fullstack LLMs and RAG Pipelines with Language Expansion ',
+    lectureContent: ['to be announced..'],
+    profile: '/assets/prof/leehualseok.png'
   }
 ]
