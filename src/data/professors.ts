@@ -154,11 +154,16 @@ export const INVITED_LECTURER: INVITED_LECTURER[] = [
     name: '이활석',
     position: 'CTO',
     company: '업스테이지',
-    education: ['to be announced..'],
-    career: ['to be announced..'],
+    education: ['2006 ~ 2011 KAIST 전기및전자공학 박사'],
+    career: ['2020 ~ 현재 Upstage CTO, ', 
+            '2014 ~ 2020 네이버 Clova Visual AI 책임리더',
+            '2016 ~ 2017 NCSOFT AI center AI lab vision TF 연구원',
+            '2011 ~ 2016 한화테크윈 선행기술연구원 비전기술그룹 연구원'],
     lectureTitle:
       'B2B Innovation: Harnessing Fullstack LLMs and RAG Pipelines with Language Expansion ',
-    lectureContent: ['to be announced..'],
-    profile: '/assets/prof/leehualseok.png'
+    lectureContent: ['Understand the current state of LLM training, including pre-training, upscaling, and fine-tuning processes in 2024',
+                    'Learn about the advancements in language expansion for LLMs to support a wide range of languages',
+                    'Gain insights into the role of RAG in enhancing LLM capabilities, focusing on OCR, layout analysis, and embedding techniques'],
+    profile: '/assets/prof/leehualseok.jpg'
   }
 ]
