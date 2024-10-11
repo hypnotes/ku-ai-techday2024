@@ -48,7 +48,7 @@ const scheduleData = [
   },
   {
     time: '11:10 - 11:40',
-    program: '게임 산업에서의 Vision AI 기술 활용 사례	NCSOFT',
+    program: '게임 산업에서의 Vision AI 기술 활용 사례',
     presenter: '김민재 AI Tech 센터장',
     affiliation: 'NCSOFT',
     chair: '오학주 교수님',
