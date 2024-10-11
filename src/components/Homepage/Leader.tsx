@@ -65,7 +65,7 @@ const Leader = () => {
             textAlign={matches ? 'left' : 'right'}
             color={theme.palette.grey[300]}
           >
-            {LEADER.position} {LEADER.name}
+            {LEADER.position}<br/> {LEADER.name}
           </Typography>
           <Box maxWidth={'800px'} color={theme.palette.grey[300]}>
             <Typography
