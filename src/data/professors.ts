@@ -65,7 +65,7 @@ export const INVITED_LECTURER: INVITED_LECTURER[] = [
       'Johns Hopkins University, Computer Science 학사'
     ],
     career: ['루닛의 Cancer Screening AI Department 모델팀 팀장'],
-    lectureTitle: 'Foundation Model 이란',
+    lectureTitle: 'Conquering Cancer with Foundation Models at Lunit',
     lectureContent: [
       '루닛의 Foundation Model 과 의료 AI',
       '루닛의 Foundation Model 관련 연구 결과'
@@ -108,7 +108,7 @@ export const INVITED_LECTURER: INVITED_LECTURER[] = [
       '2017 ~ 2020 삼성전자 네트워크사업부: 최적 기지국 위치 선정 알고리즘 연구, OpenRAN 개발',
       '2021 ~ 현재 LG AI 연구원 멀티모달랩: 생성형 AI, 메디컬 AI '
     ],
-    lectureTitle: '전문가를 위한 AI: EXAONE 멀티모달',
+    lectureTitle: 'EXAONE과 멀티모달: 실사례로 살펴보는 AI의 가능성',
     lectureContent: [
       '연구원의 비전/멀티모달  연구 분야 개요',
       'EXAONE 멀티모달 모델의 현업 적용 사례 소개'
