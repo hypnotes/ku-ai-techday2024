@@ -64,7 +64,7 @@ export const INVITED_LECTURER: INVITED_LECTURER[] = [
       'Johns Hopkins University, Computer Science 석사',
       'Johns Hopkins University, Computer Science 학사'
     ],
-    career: ['루닛 의 Cancer Screening AI Department 모델팀 팀장'],
+    career: ['루닛의 Cancer Screening AI Department 모델팀 팀장'],
     lectureTitle: 'Foundation Model 이란',
     lectureContent: [
       '루닛의 Foundation Model 과 의료 AI',
@@ -88,8 +88,8 @@ export const INVITED_LECTURER: INVITED_LECTURER[] = [
     ],
     lectureTitle: '게임 산업에서의 Vision AI 기술 활용 사례',
     lectureContent: [
-      '1. Generative AI 기술 발전이 불러온 창작의 패러다임 변화',
-      '2. NC에서의 Vision AI 기술 활용 분야 소개'
+      'Generative AI 기술 발전이 불러온 창작의 패러다임 변화',
+      'NC에서의 Vision AI 기술 활용 분야 소개'
     ],
     profile: '/assets/prof/kimminjae.png'
   },
@@ -155,7 +155,7 @@ export const INVITED_LECTURER: INVITED_LECTURER[] = [
     position: 'CTO',
     company: '업스테이지',
     education: ['2006 ~ 2011 KAIST 전기및전자공학 박사'],
-    career: ['2020 ~ 현재 Upstage CTO, ', 
+    career: ['2020 ~ 현재 Upstage CTO', 
             '2014 ~ 2020 네이버 Clova Visual AI 책임리더',
             '2016 ~ 2017 NCSOFT AI center AI lab vision TF 연구원',
             '2011 ~ 2016 한화테크윈 선행기술연구원 비전기술그룹 연구원'],
