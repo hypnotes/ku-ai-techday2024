@@ -64,7 +64,7 @@ export const INVITED_LECTURER: INVITED_LECTURER[] = [
       'Johns Hopkins University, Computer Science 석사',
       'Johns Hopkins University, Computer Science 학사'
     ],
-    career: ['루닛의 Cancer Screening AI Department 모델팀 팀장'],
+    career: ['루닛 Cancer Screening AI Department 모델팀 팀장'],
     lectureTitle: 'Conquering Cancer with Foundation Models at Lunit',
     lectureContent: [
       '루닛의 Foundation Model 과 의료 AI',
@@ -78,7 +78,7 @@ export const INVITED_LECTURER: INVITED_LECTURER[] = [
     company: 'NCSOFT',
     education: [
       '2015 고려대학교 전자전기공학과 박사',
-      '2017 고려대학교 전기전자전파공학부 학사'
+      '2007 고려대학교 전기전자전파공학부 학사'
     ],
     career: [
       '2024 - 현재  NCSOFT AI Tech 센터장',
@@ -103,10 +103,10 @@ export const INVITED_LECTURER: INVITED_LECTURER[] = [
       '2004 서울대학교 전기정보공학부 학사'
     ],
     career: [
-      '2012 ~ 2016 삼성전자 무선사업부: 삼성 인터넷 브라우저 Rendering 엔진 개발, VR 브라우저 개발',
-      '2016 ~ 2017 삼성전자 차세대사업팀: 위성 영상 분석, Urban Scene understanding',
+      '2021 ~ 현재 LG AI 연구원 멀티모달랩: 생성형 AI, 메디컬 AI ',      
       '2017 ~ 2020 삼성전자 네트워크사업부: 최적 기지국 위치 선정 알고리즘 연구, OpenRAN 개발',
-      '2021 ~ 현재 LG AI 연구원 멀티모달랩: 생성형 AI, 메디컬 AI '
+      '2016 ~ 2017 삼성전자 차세대사업팀: 위성 영상 분석, Urban Scene understanding',
+      '2012 ~ 2016 삼성전자 무선사업부: 삼성 인터넷 브라우저 Rendering 엔진 개발, VR 브라우저 개발'
     ],
     lectureTitle: 'EXAONE과 멀티모달: 실사례로 살펴보는 AI의 가능성',
     lectureContent: [
@@ -139,8 +139,8 @@ export const INVITED_LECTURER: INVITED_LECTURER[] = [
     company: '퓨리오사AI',
     education: ['2005 KAIST 전산학과 학사', '2015 KAIST 전산학과 박사'],
     career: [
-      '2014 ~ 2017 삼성전자 메모리 사업부 메모리솔루션랩',
-      '2017 ~ 현재 FuriosaAI CTO'
+      '2017 ~ 현재 FuriosaAI CTO',
+      '2014 ~ 2017 삼성전자 메모리 사업부 메모리솔루션랩'
     ],
     lectureTitle:
       'Powering the Inference Age: Introducing RNGD for Scalable and Sustainable AI',
@@ -156,7 +156,7 @@ export const INVITED_LECTURER: INVITED_LECTURER[] = [
     company: '업스테이지',
     education: ['2006 ~ 2011 KAIST 전기및전자공학 박사'],
     career: ['2020 ~ 현재 Upstage CTO', 
-            '2014 ~ 2020 네이버 Clova Visual AI 책임리더',
+            '2017 ~ 2020 네이버 Clova Visual AI 책임리더',
             '2016 ~ 2017 NCSOFT AI center AI lab vision TF 연구원',
             '2011 ~ 2016 한화테크윈 선행기술연구원 비전기술그룹 연구원'],
     lectureTitle:
