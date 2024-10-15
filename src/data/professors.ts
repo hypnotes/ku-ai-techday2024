@@ -60,7 +60,7 @@ export const INVITED_LECTURER: INVITED_LECTURER[] = [
     position: '리더',
     company: '루닛',
     education: [
-      'Johns Hopkins University, Computer Science 박사, advisor: Dr. Gregory Hager, Dr. Alan Yuille',
+      'Johns Hopkins University, Computer Science 박사',
       'Johns Hopkins University, Computer Science 석사',
       'Johns Hopkins University, Computer Science 학사'
     ],
